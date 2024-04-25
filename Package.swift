@@ -19,7 +19,7 @@ let package = Package(
             path: "Sources",
             resources: [
                 .process("Assets"),
-                .process("Resources"), .copy("PrivacyInfo.xcprivacy"),
+                .copy("PrivacyInfo.xcprivacy"),
             ],
             publicHeadersPath: "."
         )
